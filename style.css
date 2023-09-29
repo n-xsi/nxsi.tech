@@ -4,11 +4,11 @@
 
 :root {
     /* General Page */
-    --highlight-primary: #c4a1c5;
-    --highlight-secondary: rgba(211, 56, 216, 0.856);
+    --highlight-primary: #6e76e5;
+    --highlight-secondary: #6e76e5;
 
     --title-text-color: white;
-    --job-text-color: rgb(142, 255, 127);
+    --job-text-color: #d5b4eb;
 
     --link-text-color: white;
     --link-text-color-hover: rgb(167, 241, 217);
@@ -17,15 +17,15 @@
 
     --selection-color: #ffffff17;
 
-    --background-color: #1f1f1f00;
+    --background-color: #13131300;
 
     --neon-button-background-color: #ffffff17;
     --neon-button-border-color: #585858;
     --neon-button-text-color: white;
 
     /* Particles */
-    --particles-blob-color: white;
-    --particles-line-color: white;
+    --particles-blob-color: rgb(211, 211, 211);
+    --particles-line-color: rgb(83, 83, 83);
 
 }
 
@@ -39,7 +39,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  z-index: -10;
+  z-index: 10;
 }
 
 body {
@@ -66,7 +66,8 @@ canvas {
 h1 {
     font-size: 64px;
     margin-bottom: 20px;
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    z-index: 20;
 }
 
 h3 {
@@ -75,6 +76,7 @@ h3 {
     font-weight: 400;
     font-size: 25px;
     font-family: 'Pixelify Sans', cursive;
+    z-index: 20;
 }
 
 a {
@@ -88,6 +90,7 @@ a:hover {
 .socials {
     display: flex;
     gap: 10px;
+    z-index: 20;
 }
 
 .socials i {
@@ -115,11 +118,13 @@ a:hover {
     font-family: 'Kanit', sans-serif;
     line-height: 25px;
     font-size: 22px;
+    z-index: 20;
 }
 
 .neon-button {
     padding: 10px 5px;
     width: 10vw;
+    z-index: 20;
     background-color: var(--neon-button-background-color);
     border: 1px solid var(--neon-button-border-color);
     border-radius: 5px;

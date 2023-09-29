@@ -16,7 +16,7 @@ tsParticles.load("tsparticles", {
     fpsLimit: 60,
     particles: {
       number: {
-        value: 100,
+        value: 50,
         density: {
           enable: true,
           value_area: 1000
@@ -52,14 +52,14 @@ tsParticles.load("tsparticles", {
       },
       line_linked: {
         enable: true,
-        distance: 100,
+        distance: 150,
         color: getColor("--particles-line-color"),
         opacity: 0.4,
         width: 1
       },
       move: {
         enable: true,
-        speed: 3,
+        speed: 2,
         direction: "none",
         random: false,
         straight: false,
