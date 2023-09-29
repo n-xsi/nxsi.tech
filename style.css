@@ -47,7 +47,6 @@ body {
     background-color: var(--background-color);
     color: var(--default-text-color);
     font-family: 'Kanit', sans-serif;
-    background-attachment:fixed;
     height: 90vh;
     line-height: 1rem;
 }
@@ -114,7 +113,7 @@ a:hover {
 
 .description {
     word-break: keep-all;
-    width: 30vw;
+    width: 26vw;
     font-family: 'Kanit', sans-serif;
     line-height: 25px;
     font-size: 22px;
